@@ -22,7 +22,7 @@ def is_gpu_available():
     return torch.cuda.is_available()
 
 # Constants
-DOC_PATH = "./res/math1.pdf"
+DOC_PATH = "./res/d2l-en.pdf"
 MODEL_NAME = "llama3.2"
 EMBEDDING_MODEL = "nomic-embed-text"
 VECTOR_STORE_NAME = "simple-rag"
